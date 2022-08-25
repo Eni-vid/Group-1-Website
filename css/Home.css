@@ -90,7 +90,12 @@
       background: black;
       transition: 1s;
     }
-   
+    #wbh {
+      font-size: 100px;
+    }
+    #cc{
+      font-size: medium;
+    }
     nav .fa{
       display: none;
     }
@@ -126,7 +131,7 @@
 /* ---------columns------- */
 .paradise{
   padding-top: 80px;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 .peak{
   padding-top: 80px;
@@ -145,7 +150,7 @@
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/patrick-robert-.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/images/patrick.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -254,10 +259,11 @@
      bottom: 10px;
   }
 
-  @media(min-height: 320px){
+  @media only screen and (min-height: 320px){
     .footer{
       justify-content: center;
       height: fit-content;
+      
     }
   }
   /* @media (max-width:500px) {

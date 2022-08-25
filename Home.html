@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="css/Home.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -19,7 +19,6 @@
 
 </head>
 <body>
-
   <nav id="header" class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand nav-link disabled" style="font-family: 'Playfair Display', serif;">Kings & Castles Hotel</a>
@@ -31,15 +30,15 @@
             <a class="nav-link active" aria-current="page" href="Home.html">HOME</a>
             <a class="nav-link" href="About.html">ABOUT US</a>
             <a class="nav-link" href="Contact.html">CONTACT US</a>
-            <a class="nav-link" href="Web.php">RESERVATIONS</a>
+            <a class="nav-link" href="php/reservation.php">RESERVATIONS</a>
           </div>
         </div>
     </div>
   </nav> 
   <img src="images/3.jfif" alt="" width="100%" height="800px" style="opacity: 0.9;">
-    <div class="textbox">
-      <h1 style="font-family: 'Playfair Display">World's Best Hotel</h1>
-        <p>
+    <div class="text-start textbox">
+      <h1 style="font-family: 'Playfair Display" id="wbh" >World's Best Hotel</h1>
+        <p id="cc">
           Our hotels are designed for your comfort and convenience!
         </p>
           <a href="">Visit Us to Know More</a>
@@ -98,23 +97,23 @@
             </div>
           </div>
           
-          <section class="cta">
+          <section class="cta" st>
             <h1> Enjoy Our Services <br> Anywhere In The World</h1>
             <a href="" class="hero-btn">CONTACT US</a>
           </section>
       
           <!-- ------footer------ -->
           <div class="footer flex-sm-column bg-dark justify-content-center" > 
-           <div class="row ms-5" style="height: 300px; ">
-              <div id="col-1" class="col-lg-4 mt-4">
+           <div class="row ms-5 mh-100" > 
+              <div id="col-1" class="col-lg-4 mt-4 mb-4">
                 <h3>CONTACT INFO</h3>
                 <ul class="list-group ">
                 <li class="list-group-item bg-dark border-0"><a href="About.html" class="text-decoration-none link-light">About us</a></li>
                 <li class="list-group-item bg-dark border-0"><a href="Contact.html" class="text-decoration-none link-light">Contact Us</a></li>
-                <li class="list-group-item bg-dark border-0"><a href="Web.php" class="text-decoration-none link-light">Reservation</a></li>
+                <li class="list-group-item bg-dark border-0"><a href="php/reservation.php" class="text-decoration-none link-light">Reservation</a></li>
                 </ul>
               </div>
-              <div id="col-2" class="col-lg-4 mt-4">
+              <div id="col-2" class="col-lg-4 mt-4 mb-4">
                 <h3>NEWSLETTER</h3>
                 <form action="">
                   <input type="email" placeholder="YOUR EMAIL ADDRESS" required>
@@ -122,7 +121,7 @@
                   <button type="submit">SUBSCRIBE NOW</button>
                 </form>
               </div>
-              <div id="col-3" class="col-lg-4 mt-4">
+              <div id="col-3" class="col-lg-4 mt-4 mb-4">
                 <h3>ADDRESS</h3>
                 <p class="text-light">No.4 Broadway Street London</p>
                 <div class="icons text-light">
