@@ -3,7 +3,7 @@
     /* width: 100%; */
     background-position: center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
     background-color: #f1f1f1;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -100,9 +100,16 @@
       display: none;
     }
   @media(max-width:700px){
-    .textbox h1{
-      font-size: 20px;
+    #wbh {
+      font-size: 30px;
+      padding-top: 5px;
+    }
+    #cc {
+      margin-bottom: 10px;
     } 
+    .textbox a{
+      color: black;
+    }
     .topnav {
       display: block;
     }
@@ -131,20 +138,31 @@
 /* ---------columns------- */
 .paradise{
   padding-top: 80px;
-  /* font-family: 'Open Sans', sans-serif; */
+}
+#paradiseimg{
+  border-radius: 5px;
 }
 .peak{
-  padding-top: 80px;
+  padding-top: 150px;
+}
+#peakimg{
+  border-radius: 5px;
 }
 .container-fluid h3{
   font-family: 'Playfair Display', serif;
   color: #004b8d
 }
-#effort{
-  padding-left: 90px;
-}
 .pools{
-  padding-top: 200px;
+  padding: 100px 0;
+}
+#poolimg{
+  height: 500px;
+  border-radius: 5px;
+}
+@media (max-width: 320px) {
+  #p{
+    padding-top: 50px;
+  }
 }
   /* <!-- ------call to action------ --> */
 .cta{

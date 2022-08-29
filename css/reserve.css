@@ -1,8 +1,9 @@
         body {
-          background-image:url("images/3.jfif");
-          /* background: linear-gradient(100deg, darkgrey 40%, floralwhite 70%); */
+          background-color: white;
         }
-
+        /* input{
+          width: 320px; 
+        } */
         #reserve{
           font-size: 25px;
           font-weight: 30px;
@@ -11,7 +12,7 @@
           text-align: center;
         }
 
-        #text{
+        #fill{
           font-family: Georgia, 'Times New Roman', Times, serif;
           color: grey;
         }
@@ -20,41 +21,42 @@
             color : red;
             font-size : 15px;
         }
-        .container{
-            width: 300px;
-            border: 2px solid gray;
+        .con{
+            width: 250px;
+            /* border: 2px solid gray; */
             padding: 20px;
             margin-top: 30px;
             margin-left: 500px;
-            border-radius: 10px;
-            background-color: floralwhite;
+            /* border-radius: 10px; */
+            background-color: rgb(111, 110, 110);
         }
 
-        .drop{
+        .dro{
           width: 50px;
           margin-left: 20px;
           margin-top: 10px;
+          /* border-radius: 5px; */
         }
 
-        .size{
+        .full{
           width: 150px;
           margin-left: 20px;
-          margin-top: 10px;
+          margin-top: 0px;
         }
 
-        #size{
-          border: 2px solid gray;
+        #fill{
+          border: 0px;
           width: 250px;
           height: 22px;
-          border-radius: 5px;
+          /* border-radius: 5px; */
         }
 
         #adultandchildren{
-          border: 2px solid gray;
+          border: 0px;
           margin-bottom: 10px;
           width: 250px;
           height: 22px;
-          border-radius: 5px;
+          /* border-radius: 5px; */
         }
 
         .room{
@@ -87,21 +89,22 @@
           color: black;
         }
 
-        button{
-          /* color: darkgrey; */
+        .butt{
+          background-color: darkgray;
           margin-left: 15%;
-          margin-top: 15px;
+          margin-top: 20px;
+          margin-bottom: 20px;
           width: 200px;
           height: 30px;
-          border: 2px solid #333;
-          border-radius: 15px;
+          border: 0px;
+          /* border-radius: 15px; */
         }
 
-        #button{
+        #butt{
           font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
-        .footer{
+        /* .footer{
           float: left;
         }
         .footer-container {
@@ -112,4 +115,4 @@
           margin: 20px;
           margin-top: 20px;
           padding-top: 0px;
-        }
+        } */

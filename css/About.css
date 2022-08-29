@@ -4,7 +4,7 @@ body{
     padding: 0px;
     box-sizing: border-box;
     /* width:100%; */
-    min-width:1000px;
+    /* min-width:1000px; */
     height:auto;
 }
 #head{
@@ -104,6 +104,7 @@ abt{
   h1{
     font-size: 36px;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif;
   }
   p{
     color: 777;
@@ -247,6 +248,11 @@ abt{
     margin-bottom: 40px;
     outline: none;
     border: none;
+  }
+  @media (max-width: 320px) {
+    form input{
+      width: 200px;
+    }
   }
   form button{
     background: transparent;
